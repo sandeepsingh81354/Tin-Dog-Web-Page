@@ -1,0 +1,162 @@
+body{
+  font-family: "Montserrat";
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-Bold";
+}
+h3{
+  font-size: 1.5rem;
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 1000;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+#title{
+  background-color: #ff4c68;
+}
+
+.heading{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 1000;
+}
+
+.company-name{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  font-weight: 1000;
+  padding: 5%;
+}
+
+.listed-item{
+  padding: 5% 5% 7%;
+}
+
+.container{
+  padding: 3% 10% 19%;
+}
+.iphone{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:20%;
+}
+
+/* features section */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+/* testimonial section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+  width: 10%;
+  /* to make the image circular we use border-radius property */
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-inner{
+  padding: 7% 15%;
+}
+
+/* press section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+  .iphone{
+    position: static;
+    transform:rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+
+/* call to action */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-heading{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 1000;
+  color: #fff;
+}
+
+.cta-btn{
+  margin: 5%;
+}
+
+
+/* footer section */
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
